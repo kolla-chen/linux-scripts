@@ -1,0 +1,20 @@
+[Ceph]
+name=Ceph packages for $basearch
+baseurl=http://mirrors.163.com/ceph/rpm-nautilus/el7/$basearch
+enabled=1
+gpgcheck=0
+type=rpm-md
+
+[Ceph-noarch]
+name=Ceph noarch packages
+baseurl=http://mirrors.163.com/ceph/rpm-nautilus/el7/noarch
+enabled=1
+gpgcheck=0
+type=rpm-md
+
+[ceph-source]
+name=Ceph source packages
+baseurl=http://mirrors.163.com/ceph/rpm-nautilus/el7/SRPMS
+enabled=1
+gpgcheck=0
+type=rpm-md
